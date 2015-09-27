@@ -29,6 +29,10 @@
 	            window.addEventListener("beforeinstallprompt", function(e) {
 	              // log the platforms provided as options in an install prompt
 	              console.log(e.platforms); // e.g., ["web", "android", "windows"]
+	              if(window.location.search){
+	              	e.preventDefault();
+	              	return;
+	              }
 	              e.userChoice.then(function(result) {
 	                console.log(result);
 	              }, function(err){
