@@ -29,6 +29,7 @@
 					window.addEventListener("beforeinstallprompt", function(e) {
 					  // platforms: ["web", "android", "windows"]
 					  console.log(e.platforms);
+					  e.prompt();
 					  e.userChoice.then(function(result) {
 					    console.log(result);
 					  }, function(err){
