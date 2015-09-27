@@ -9,7 +9,5 @@
     }
   ],
   "display": "browser",
-  "start_url": "./index.html",
-  "background_color": "#393939",
-  "theme_color": "#303F9F"
+  "start_url": "./index.html"
 }
