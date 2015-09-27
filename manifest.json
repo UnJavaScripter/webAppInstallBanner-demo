@@ -1,0 +1,15 @@
+{
+  "short_name": "WebAppInstall test",
+  "name": "Web App install - Test",
+  "icons": [
+    {
+      "src": "icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "display": "browser",
+  "start_url": "./index.html",
+  "background_color": "#393939",
+  "theme_color": "#303F9F"
+}
