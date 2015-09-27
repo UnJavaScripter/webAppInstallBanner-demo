@@ -25,13 +25,17 @@
 			  });
 			}
 			
-
-			(function() {
-				window.addEventListener('beforeinstallprompt', function(e) {
-				  console.log('mostrando banner')
+			window.addEventListener('load', function() {
+				window.addEventListener("beforeinstallprompt", function(e) {
+				  // platforms: ["web", "android", "windows"]
+				  console.log(e.platforms);
+				  e.userChoice.then(function(result) {
+				    console.log(result);
+				  }, function(err){
+				  	console.error("there was an err: " + err);
+				  });
 				});
-			})();
-
+			});
 		</script>
 	</body>
 </html>
