@@ -1,4 +1,6 @@
-# Entra a este sitio desde Chrome >42 un dispositivo móvil.
+# Demo
+
+[Demo](http://unjavascripter.github.io/webAppInstallBanner-demo/) Entra a este sitio desde Chrome >42 en un dispositivo móvil.
 
 Habilita este flag [chrome://flags/#bypass-app-banner-engagement-checks](chrome://flags/#bypass-app-banner-engagement-checks) o visita el sitio dos veces en la misma semana.
 
